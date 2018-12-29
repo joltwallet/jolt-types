@@ -18,6 +18,9 @@ typedef enum jolt_err_t{
     E_NETWORK,
 } jolt_err_t;
 
+/* Generic write-esque function */
+typedef int (*write_fun_t)(const void *, size_t, size_t, const void *);
+
 /* Generic Definitions */
 #define CONFIDENTIAL // Way to mark sensitive data
 #define NUM_OF(x) (sizeof (x) / sizeof (*x))
