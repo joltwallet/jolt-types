@@ -1,6 +1,10 @@
 #ifndef __JOLT_TYPES_H__
 #define __JOLT_TYPES_H__
 
+#include "stdint.h"
+#include "stdbool.h"
+#include "stddef.h"
+
 /* Errors Nano Lib functions can return */
 typedef enum jolt_err_t{
     E_SUCCESS=0,
